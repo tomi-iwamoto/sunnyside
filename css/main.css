@@ -590,6 +590,7 @@ header .desktop-header {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
 }
 
 header .desktop-nav-wrapper {
@@ -641,6 +642,15 @@ header button {
   font-family: barlow;
 }
 
+header button:hover {
+  background:rgba(255, 255, 255, 0.467);
+}
+
+header button {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 header .arrow {
   top:35%;
 }
@@ -652,11 +662,12 @@ header .arrow {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.part-one .img-bg {
+/*.part-one .img-bg {
   width: 50%;
-}
+}*/
 
 .part-one .text-bg {
   width: 50%;
@@ -677,11 +688,12 @@ header .arrow {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.part-two .img-bg {
+/*.part-two .img-bg {
   width: 50%;
-}
+}*/
 
 .part-two .text-bg {
   width: 50%;
@@ -795,8 +807,18 @@ footer .footer-links {
   width: 24%;
 }
 
+footer .footer-links p:hover {
+  color:white;
+  cursor: pointer;
+}
+
 footer .soc-med {
   width: 16%;
+}
+
+footer .soc-med img:hover {
+  color:white;
+  cursor: pointer;
 }
 
 
