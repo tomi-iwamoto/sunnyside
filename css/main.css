@@ -99,7 +99,19 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+header .mobile-header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+header .desktop-header {
+  display:none;
 }
 
 .desktop-nav {
@@ -535,7 +547,145 @@ footer .soc-med img {
 
 @media only screen and (min-width: 1200px) {
 
-  
+header .mobile-header {
+  display:none;
+}
+
+header .desktop-header {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header .desktop-nav-wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top:2%;
+  width: 90%;
+}
+
+header .desktop-nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin:16px;
+}
+
+header .nav-contact {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 32%;
+}
+
+header .nav-contact a {
+  text-decoration: none;
+  margin-right:40px;
+  color:white;
+}
+
+header .desktop-header h1 {
+  font-size: 56px;
+}
+
+header .desktop-header h4 {
+  font-size: 28px;
+}
+
+header button {
+  border:none;
+  padding:12px 20px;
+  border-radius: 50px;
+}
+
+header .arrow {
+  top:35%;
+}
+
+/*------------------section part one desktop-----------*/
+
+.part-one .wrapper {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-one .img-bg {
+  width: 50%;
+}
+
+.part-one .text-bg {
+  width: 50%;
+}
+
+.part-one .text-bg-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+/*------------------section part two desktop-----------*/
+
+.part-two .wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-two .img-bg {
+  width: 50%;
+}
+
+.part-two .text-bg {
+  width: 50%;
+}
+
+.part-two .text-bg-wrapper {
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/*------------------section part three & four desktop-----------*/
+
+.three-four {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-four .part-three {
+  width: 50%;
+}
+
+.three-four .part-four {
+  width: 50%;
+}
+
+.part-three
+
+
+
+
+
+
+
 
 
 }
