@@ -177,6 +177,7 @@ header h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding:40px 0;
 }
 
 .text-bg .wrapper {
@@ -187,16 +188,22 @@ header h1 {
   justify-content: center;
 }
 
+.text-bg .text-bg-wrapper {
+  width: 80%;
+}
+
 .text-bg .wrapper p {
   text-align: center;
 }
 
 .text-bg p {
   font-family: barlow;
+  font-size: 16px;
 }
 
 .text-bg h2 {
   font-family:fraunces;
+  font-size: 24px;
 }
 
 .text-bg h5 {
@@ -228,6 +235,10 @@ header h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.part-two .text-bg {
+  padding: 40px 0;
 }
 
 .part-two .text-bg .wrapper h2 {
@@ -334,7 +345,8 @@ header h1 {
 }
 
 .testimonials .testimonial-title {
-  color:gray;
+  color:#c9c9c9;
+  font-size: 20px;
 }
 
 .testimonials h5 {
@@ -384,7 +396,7 @@ header h1 {
   font-family: barlow;
   text-align: center;
   font-size: 12px;
-  color:gray;
+  color:#c9c9c9;
   margin:0;
 }
 
@@ -416,6 +428,7 @@ header h1 {
 footer {
   width: 100%;
   background-color: #9ad8c9;
+  position: relative;
 }
 
 footer .wrapper {
@@ -423,7 +436,7 @@ footer .wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px 0 40px 0;
 }
 
 footer h2 {
@@ -455,6 +468,26 @@ footer .soc-med {
 
 footer .soc-med img {
 
+}
+
+.attribution {
+  position:absolute;
+  bottom: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.attribution span {
+  color:white;
+}
+
+.attribution a {
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -590,6 +623,7 @@ header .nav-contact a {
   text-decoration: none;
   margin-right:40px;
   color:white;
+  font-family: barlow;
 }
 
 header .desktop-header h1 {
@@ -604,6 +638,7 @@ header button {
   border:none;
   padding:12px 20px;
   border-radius: 50px;
+  font-family: barlow;
 }
 
 header .arrow {
@@ -660,6 +695,22 @@ header .arrow {
   align-items: flex-start;
 }
 
+.text-bg h2 {
+  font-size: 28px;
+}
+
+.text-bg p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-bg h5 span {
+  background:#fff2ae;
+}
+
+.text-bg .pink-highlight {
+  background:pink;
+}
 
 /*------------------section part three & four desktop-----------*/
 
@@ -678,14 +729,75 @@ header .arrow {
   width: 50%;
 }
 
-.part-three
+.part-three .text-bg .wrapper h2 {
+  font-size: 28px;
+  bottom:24%;
+}
+
+.part-three .text-bg .wrapper p {
+  bottom: 15%;
+  font-size: 20px;
+  width: 60%;
+}
+
+.part-four .text-bg .wrapper h2 {
+  font-size: 28px;
+  bottom:24%;
+}
+
+.part-four .text-bg .wrapper p {
+  bottom: 15%;
+  font-size: 20px;
+  width: 60%;
+}
+
+/*------------------section testimonial-----------*/
+
+.individual-testimonials {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.testimonials {
+  padding: 40px 0 80px 0;
+}
+
+.testimonials h5 {
+  font-size: 28px;
+}
+
+.testimonials .user-name {
+  font-size: 20px;
+}
+
+.testimonials .wrapper .user p {
+  font-size: 20px;
+}
+
+
+/*------------------image squares-----------*/
+
+.image-squares {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
+/*------------footer ----------------*/
 
+footer .footer-links {
+  width: 24%;
+}
 
-
-
+footer .soc-med {
+  width: 16%;
+}
 
 
 }
